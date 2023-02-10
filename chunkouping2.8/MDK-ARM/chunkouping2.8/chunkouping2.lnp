@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"chunkouping2.8\startup_stm32f103xe.o"
+"chunkouping2.8\main.o"
+"chunkouping2.8\gpio.o"
+"chunkouping2.8\usart.o"
+"chunkouping2.8\stm32f1xx_it.o"
+"chunkouping2.8\stm32f1xx_hal_msp.o"
+"chunkouping2.8\stm32f1xx_hal_gpio_ex.o"
+"chunkouping2.8\stm32f1xx_hal_tim.o"
+"chunkouping2.8\stm32f1xx_hal_tim_ex.o"
+"chunkouping2.8\stm32f1xx_hal_uart.o"
+"chunkouping2.8\stm32f1xx_hal.o"
+"chunkouping2.8\stm32f1xx_hal_rcc.o"
+"chunkouping2.8\stm32f1xx_hal_rcc_ex.o"
+"chunkouping2.8\stm32f1xx_hal_gpio.o"
+"chunkouping2.8\stm32f1xx_hal_dma.o"
+"chunkouping2.8\stm32f1xx_hal_cortex.o"
+"chunkouping2.8\stm32f1xx_hal_pwr.o"
+"chunkouping2.8\stm32f1xx_hal_flash.o"
+"chunkouping2.8\stm32f1xx_hal_flash_ex.o"
+"chunkouping2.8\stm32f1xx_hal_exti.o"
+"chunkouping2.8\system_stm32f1xx.o"
+"chunkouping2.8\tjc_usart_hmi.o"
+--strict --scatter "chunkouping2.8\chunkouping2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "chunkouping2.map" -o chunkouping2.8\chunkouping2.8
